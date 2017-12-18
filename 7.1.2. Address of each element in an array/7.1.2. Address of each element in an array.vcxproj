@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{12397C56-0F98-4793-BAD1-6BD2E8A53FCC}</ProjectGuid>
+    <ProjectGuid>{E16FB128-2398-40EE-A1B4-D02731DFAD07}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>LearnCProgramming</RootNamespace>
+    <RootNamespace>My712Addressofeachelementinanarray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Learn C Programming.cpp" />
+    <ClCompile Include="7.1.2. Address of each element in an array.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

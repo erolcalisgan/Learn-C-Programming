@@ -58,6 +58,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.8.3.get array value throu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.8.4. Address of second element in array", "7.8.4. Address of second element in array\7.8.4. Address of second element in array.vcxproj", "{C8EDAA6B-9DB7-42BE-9326-76B980B26707}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.8.5. Move array pointer to the next element", "7.8.5. Move array pointer to the next element\7.8.5. Move array pointer to the next element.vcxproj", "{48A363EA-A486-437F-AE84-21259BBB7176}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.8.6. Deal with array pointer of long integer", "7.8.6. Deal with array pointer of long integer\7.8.6. Deal with array pointer of long integer.vcxproj", "{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.8.7. Accessing an array using pointers", "7.8.7. Accessing an array using pointers\7.8.7. Accessing an array using pointers.vcxproj", "{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.9.Two dimensional array", "7.9.Two dimensional array", "{85379310-ACBB-44D5-A40F-76CFDF560D1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.9.1. Two-dimensional array", "7.9.1. Two-dimensional array\7.9.1. Two-dimensional array.vcxproj", "{616737CE-DC17-476C-9952-F628BD06B88B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -202,6 +212,38 @@ Global
 		{C8EDAA6B-9DB7-42BE-9326-76B980B26707}.Release|x64.Build.0 = Release|x64
 		{C8EDAA6B-9DB7-42BE-9326-76B980B26707}.Release|x86.ActiveCfg = Release|Win32
 		{C8EDAA6B-9DB7-42BE-9326-76B980B26707}.Release|x86.Build.0 = Release|Win32
+		{48A363EA-A486-437F-AE84-21259BBB7176}.Debug|x64.ActiveCfg = Debug|x64
+		{48A363EA-A486-437F-AE84-21259BBB7176}.Debug|x64.Build.0 = Debug|x64
+		{48A363EA-A486-437F-AE84-21259BBB7176}.Debug|x86.ActiveCfg = Debug|Win32
+		{48A363EA-A486-437F-AE84-21259BBB7176}.Debug|x86.Build.0 = Debug|Win32
+		{48A363EA-A486-437F-AE84-21259BBB7176}.Release|x64.ActiveCfg = Release|x64
+		{48A363EA-A486-437F-AE84-21259BBB7176}.Release|x64.Build.0 = Release|x64
+		{48A363EA-A486-437F-AE84-21259BBB7176}.Release|x86.ActiveCfg = Release|Win32
+		{48A363EA-A486-437F-AE84-21259BBB7176}.Release|x86.Build.0 = Release|Win32
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}.Debug|x64.ActiveCfg = Debug|x64
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}.Debug|x64.Build.0 = Debug|x64
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}.Debug|x86.Build.0 = Debug|Win32
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}.Release|x64.ActiveCfg = Release|x64
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}.Release|x64.Build.0 = Release|x64
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}.Release|x86.ActiveCfg = Release|Win32
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB}.Release|x86.Build.0 = Release|Win32
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}.Debug|x64.ActiveCfg = Debug|x64
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}.Debug|x64.Build.0 = Debug|x64
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}.Debug|x86.ActiveCfg = Debug|Win32
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}.Debug|x86.Build.0 = Debug|Win32
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}.Release|x64.ActiveCfg = Release|x64
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}.Release|x64.Build.0 = Release|x64
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}.Release|x86.ActiveCfg = Release|Win32
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008}.Release|x86.Build.0 = Release|Win32
+		{616737CE-DC17-476C-9952-F628BD06B88B}.Debug|x64.ActiveCfg = Debug|x64
+		{616737CE-DC17-476C-9952-F628BD06B88B}.Debug|x64.Build.0 = Debug|x64
+		{616737CE-DC17-476C-9952-F628BD06B88B}.Debug|x86.ActiveCfg = Debug|Win32
+		{616737CE-DC17-476C-9952-F628BD06B88B}.Debug|x86.Build.0 = Debug|Win32
+		{616737CE-DC17-476C-9952-F628BD06B88B}.Release|x64.ActiveCfg = Release|x64
+		{616737CE-DC17-476C-9952-F628BD06B88B}.Release|x64.Build.0 = Release|x64
+		{616737CE-DC17-476C-9952-F628BD06B88B}.Release|x86.ActiveCfg = Release|Win32
+		{616737CE-DC17-476C-9952-F628BD06B88B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -231,6 +273,11 @@ Global
 		{552BEB4F-2486-476E-8E4D-CBB12356488E} = {9A5D7153-FAF7-4613-B426-D7FF840E7C77}
 		{6190247F-259A-4249-BBB8-490A781D8D27} = {9A5D7153-FAF7-4613-B426-D7FF840E7C77}
 		{C8EDAA6B-9DB7-42BE-9326-76B980B26707} = {9A5D7153-FAF7-4613-B426-D7FF840E7C77}
+		{48A363EA-A486-437F-AE84-21259BBB7176} = {9A5D7153-FAF7-4613-B426-D7FF840E7C77}
+		{6FE10AB0-D2BE-4A46-A5D7-54CB3D8C85CB} = {9A5D7153-FAF7-4613-B426-D7FF840E7C77}
+		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008} = {9A5D7153-FAF7-4613-B426-D7FF840E7C77}
+		{85379310-ACBB-44D5-A40F-76CFDF560D1B} = {C9512323-10D1-4A48-AB0F-D28989FEF743}
+		{616737CE-DC17-476C-9952-F628BD06B88B} = {85379310-ACBB-44D5-A40F-76CFDF560D1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77F7D8DD-03FE-4DFE-9970-5838CB2D3B76}

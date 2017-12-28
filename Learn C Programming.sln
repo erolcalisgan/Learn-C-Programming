@@ -68,6 +68,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.9.Two dimensional array",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.9.1. Two-dimensional array", "7.9.1. Two-dimensional array\7.9.1. Two-dimensional array.vcxproj", "{616737CE-DC17-476C-9952-F628BD06B88B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.9.2. Transpose of a matrix", "7.9.2. Transpose of a matrix\7.9.2. Transpose of a matrix.vcxproj", "{6EA0F6A7-A026-4D3B-852C-0543078272D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.10.Multi Dimensional Array Initializing", "7.10.Multi Dimensional Array Initializing", "{7E70F163-CA81-4658-A6D1-F7B040EC8E80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.10.1. Initializing multidimensional arrays", "7.10.1. Initializing multidimensional arrays\7.10.1. Initializing multidimensional arrays.vcxproj", "{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.11.Multi Dimensional Array Pointer", "7.11.Multi Dimensional Array Pointer", "{51E5444A-D732-4B31-9DBF-770B869B1C45}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.11.1. Two-Dimensional arrays and pointers", "7.11.1. Two-Dimensional arrays and pointers\7.11.1. Two-Dimensional arrays and pointers.vcxproj", "{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -244,6 +254,30 @@ Global
 		{616737CE-DC17-476C-9952-F628BD06B88B}.Release|x64.Build.0 = Release|x64
 		{616737CE-DC17-476C-9952-F628BD06B88B}.Release|x86.ActiveCfg = Release|Win32
 		{616737CE-DC17-476C-9952-F628BD06B88B}.Release|x86.Build.0 = Release|Win32
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5}.Debug|x64.ActiveCfg = Debug|x64
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5}.Debug|x64.Build.0 = Debug|x64
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5}.Debug|x86.Build.0 = Debug|Win32
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5}.Release|x64.ActiveCfg = Release|x64
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5}.Release|x64.Build.0 = Release|x64
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5}.Release|x86.ActiveCfg = Release|Win32
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5}.Release|x86.Build.0 = Release|Win32
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}.Debug|x64.ActiveCfg = Debug|x64
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}.Debug|x64.Build.0 = Debug|x64
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}.Debug|x86.Build.0 = Debug|Win32
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}.Release|x64.ActiveCfg = Release|x64
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}.Release|x64.Build.0 = Release|x64
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}.Release|x86.ActiveCfg = Release|Win32
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2}.Release|x86.Build.0 = Release|Win32
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}.Debug|x64.ActiveCfg = Debug|x64
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}.Debug|x64.Build.0 = Debug|x64
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}.Debug|x86.Build.0 = Debug|Win32
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}.Release|x64.ActiveCfg = Release|x64
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}.Release|x64.Build.0 = Release|x64
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}.Release|x86.ActiveCfg = Release|Win32
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -278,6 +312,11 @@ Global
 		{4F10E75E-FBFE-46B0-AE31-C0B69FA92008} = {9A5D7153-FAF7-4613-B426-D7FF840E7C77}
 		{85379310-ACBB-44D5-A40F-76CFDF560D1B} = {C9512323-10D1-4A48-AB0F-D28989FEF743}
 		{616737CE-DC17-476C-9952-F628BD06B88B} = {85379310-ACBB-44D5-A40F-76CFDF560D1B}
+		{6EA0F6A7-A026-4D3B-852C-0543078272D5} = {85379310-ACBB-44D5-A40F-76CFDF560D1B}
+		{7E70F163-CA81-4658-A6D1-F7B040EC8E80} = {C9512323-10D1-4A48-AB0F-D28989FEF743}
+		{2FA4F354-99F3-499C-BA01-7A1F6CAAC7C2} = {7E70F163-CA81-4658-A6D1-F7B040EC8E80}
+		{51E5444A-D732-4B31-9DBF-770B869B1C45} = {C9512323-10D1-4A48-AB0F-D28989FEF743}
+		{2CD2AE7B-DAF1-4786-B2A0-2E8B1D9BCFE0} = {51E5444A-D732-4B31-9DBF-770B869B1C45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77F7D8DD-03FE-4DFE-9970-5838CB2D3B76}

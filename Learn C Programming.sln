@@ -92,6 +92,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.1.Structure", "9.1.Struct
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.1.1. Introduction Structures", "9.1.1. Introduction Structures\9.1.1. Introduction Structures.vcxproj", "{6A1E4BAA-3486-4D0F-962A-B3E89B10C74A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.1.2. Define a structure for recording students", "9.1.2. Define a structure for recording students\9.1.2. Define a structure for recording students.vcxproj", "{5E161216-CA57-4C17-8510-829B5B7EB37B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -332,6 +334,14 @@ Global
 		{6A1E4BAA-3486-4D0F-962A-B3E89B10C74A}.Release|x64.Build.0 = Release|x64
 		{6A1E4BAA-3486-4D0F-962A-B3E89B10C74A}.Release|x86.ActiveCfg = Release|Win32
 		{6A1E4BAA-3486-4D0F-962A-B3E89B10C74A}.Release|x86.Build.0 = Release|Win32
+		{5E161216-CA57-4C17-8510-829B5B7EB37B}.Debug|x64.ActiveCfg = Debug|x64
+		{5E161216-CA57-4C17-8510-829B5B7EB37B}.Debug|x64.Build.0 = Debug|x64
+		{5E161216-CA57-4C17-8510-829B5B7EB37B}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E161216-CA57-4C17-8510-829B5B7EB37B}.Debug|x86.Build.0 = Debug|Win32
+		{5E161216-CA57-4C17-8510-829B5B7EB37B}.Release|x64.ActiveCfg = Release|x64
+		{5E161216-CA57-4C17-8510-829B5B7EB37B}.Release|x64.Build.0 = Release|x64
+		{5E161216-CA57-4C17-8510-829B5B7EB37B}.Release|x86.ActiveCfg = Release|Win32
+		{5E161216-CA57-4C17-8510-829B5B7EB37B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -377,6 +387,7 @@ Global
 		{F89A9D10-5E75-4DF9-83EA-7811B3FE0C8E} = {51E5444A-D732-4B31-9DBF-770B869B1C45}
 		{80203DF3-3F1C-4F35-B57E-DBC37CA8415D} = {24BA6867-48C9-4A4E-9D53-38560492EF27}
 		{6A1E4BAA-3486-4D0F-962A-B3E89B10C74A} = {80203DF3-3F1C-4F35-B57E-DBC37CA8415D}
+		{5E161216-CA57-4C17-8510-829B5B7EB37B} = {80203DF3-3F1C-4F35-B57E-DBC37CA8415D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77F7D8DD-03FE-4DFE-9970-5838CB2D3B76}

@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{6A1E4BAA-3486-4D0F-962A-B3E89B10C74A}</ProjectGuid>
+    <ProjectGuid>{5E161216-CA57-4C17-8510-829B5B7EB37B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My911IntroductionStructures</RootNamespace>
+    <RootNamespace>My912Defineastructureforrecordingstudents</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9.1.1. Introduction Structures.cpp" />
+    <ClCompile Include="9.1.2. Define a structure for recording students.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -31,7 +31,7 @@ printf("Character 1 is %s\n",g1.name);
 Link :
 
 ```bash
-http://www.java2s.com/Tutorial/C/0180__Structure/Catalog0180__Structure.htm
+[http://www.java2s.com/Tutorial/C/0180__Structure/Catalog0180__Structure.htm] (http://www.java2s.com/Tutorial/C/0180__Structure/Catalog0180__Structure.htm)
 
 ```
 

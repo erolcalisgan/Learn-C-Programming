@@ -14,13 +14,18 @@ How to declare an array in C?
 data_type array_name[array_size];
 
 ```
-
+```html
 <md-grid-list cols="4" [style.background]="'lightblue'">
    <md-grid-tile>mark[0]</md-grid-tile>
    <md-grid-tile>mark[1]</md-grid-tile>
    <md-grid-tile>mark[2]</md-grid-tile>
    <md-grid-tile>mark[3]</md-grid-tile>
 </md-grid-list>
+```
+
+mark[0] | mark[1] | mark[2] | mark[3] |
+------- | ------- | ------- | ------- |
+
 
 
 

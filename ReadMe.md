@@ -1,4 +1,4 @@
-# Array
+﻿# Array
 
 An array is a collection of data that holds fixed number of values of same type.
 For example: if you want to store marks of 100 students, you can create an array for it.
@@ -76,4 +76,30 @@ printf("Character 1 is %s\n",g1.name);
 Link :
 (http://www.java2s.com/Tutorial/C/0180__Structure/Catalog0180__Structure.htm)
 
+### Pointers to Structures
 
+```bash
+struct Books {
+   char  title[50];
+   char  author[50];
+   char  subject[100];
+   int   book_id;
+};
+```
+
+You can define pointers to structures in the same way as you define pointer to any other variable −
+```bash
+struct Books *struct_pointer;
+```
+
+Now, you can store the address of a structure variable in the above defined 
+pointer variable. To find the address of a structure variable, place the '&';
+operator before the structure's name as follows −
+```bash
+struct_pointer = &Book1;
+```
+
+To access the members of a structure using a pointer to that structure, you must use the → operator as follows −
+```bash
+struct_pointer->title;
+```

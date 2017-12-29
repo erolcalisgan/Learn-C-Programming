@@ -26,7 +26,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Way1 Using Sizeof Operator.cpp">
+    <ClCompile Include="Calculating Size of Structure .cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

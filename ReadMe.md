@@ -1,6 +1,34 @@
 # Array
 
-Arrays are a type of data storage that you often use in C programs.
+An array is a collection of data that holds fixed number of values of same type.
+For example: if you want to store marks of 100 students, you can create an array for it.
+
+```bash
+float marks[100];
+```
+The size and type of arrays cannot be changed after its declaration.
+
+How to declare an array in C?
+```bash
+
+data_type array_name[array_size];
+
+```
+
+<md-grid-list cols="4" [style.background]="'lightblue'">
+   <md-grid-tile>mark[0]</md-grid-tile>
+   <md-grid-tile>mark[1]</md-grid-tile>
+   <md-grid-tile>mark[2]</md-grid-tile>
+   <md-grid-tile>mark[3]</md-grid-tile>
+</md-grid-list>
+
+
+
+
+
+
+
+
 
 # Structure
 

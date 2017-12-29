@@ -8,23 +8,35 @@ float marks[100];
 ```
 The size and type of arrays cannot be changed after its declaration.
 
-How to declare an array in C?
+###  How to declare an array in C?
+
 ```bash
 
 data_type array_name[array_size];
 
 ```
-```html
-<md-grid-list cols="4" [style.background]="'lightblue'">
-   <md-grid-tile>mark[0]</md-grid-tile>
-   <md-grid-tile>mark[1]</md-grid-tile>
-   <md-grid-tile>mark[2]</md-grid-tile>
-   <md-grid-tile>mark[3]</md-grid-tile>
-</md-grid-list>
+For example,
+
+```bash
+float mark[5];
 ```
 
-mark[0] | mark[1] | mark[2] | mark[3] |
-------- | ------- | ------- | ------- |
+Here, we declared an array, mark, of floating-point type and size 5. Meaning, it can hold 5 floating-point values.
+
+###  Elements of an Array and How to access them?
+You can access elements of an array by indices.
+
+Suppose you declared an array mark as above. The first element is mark[0], second element is mark[1] and so on.
+
+mark[0] | mark[1] | mark[2] | mark[3] | mark[4] |
+------- | ------- | ------- | ------- | ------- |
+
+### Few key notes:
+
+* Arrays have 0 as the first index not 1. In this example, mark[0]
+* If the size of an array is n, to access the last element, (n-1) index is used. In this example, mark[4]
+* Suppose the starting address of mark[0] is 2120d. Then, the next address, a[1], will be 2124d, address of a[2] will be 2128d and so on. It's
+because the size of a float is 4 bytes.
 
 
 
